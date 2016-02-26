@@ -4,7 +4,7 @@ import { SerialPort } from 'serialport';
 
 const OWNER_NAME = 'Zhigalov';
 const REPO_NAME = 'frontend-fellows-test';
-const PORT = '/dev/tty.usbmodem1411';
+const PORT = '/dev/tty.usbmodem1421';
 
 const travis = new Travis({ version: '2.0.0' });
 const serialPort = new SerialPort(PORT, { baudrate: 9600 }, false);
